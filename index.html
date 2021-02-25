@@ -16,23 +16,59 @@
     <link rel="stylesheet" href="style.css">
     <title>Covid-19 Tracking App</title>
 </head>
-<body>
-    <nav class="navbar navbar-dark bg-dark nav-pills justify-content-center">
-        <li class="nav-item">
-            Data Options
-        </li>
-        <li class="nav-item">
-            <a>Cases</a>
-        </li>        
-        <li class="nav-item">
-            <a>Deaths</a>
-        </li>
-        Covid-19 Tracking App
-    </nav>
-    <div class="container">
-
-
+<body>    
+    <!--Top Page Title Bar-->
+    <div class="conatainer d-flex p-2">
+        <h1 class="mx-auto">National Covid-19 Tracking App</h1>
     </div>
-    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="navbar-brand border-right border-light">Map Options</div>
+        <!--button for smaller screens-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Positive Cases <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hospitalizations</a>
+                </li>                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Deaths</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Currently On Ventilator</a>
+                </li>                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Increases</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        States
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Alabama</a>
+                        <a class="dropdown-item" href="#">Alaska</a>
+                        <a class="dropdown-item" href="#">Arizona</a>
+                        <a class="dropdown-item" href="#">Arkansas</a>
+                        <a class="dropdown-item" href="#">California</a>
+                        <a class="dropdown-item" href="#">Colorado</a>
+                        <a class="dropdown-item" href="#">Connecticut</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--body stuff-->
+    <div class="container">
+    </div>
 </body>
+
+
+
 </html>
