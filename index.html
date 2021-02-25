@@ -11,6 +11,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <!--Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!--Possible map plugins to use: 
+    https://newsignature.github.io/us-map/
+    https://jvectormap.com/tutorials/getting-started/
+    https://observablehq.com/@enjalot/us-county-datasets?collection=@observablehq/maps    
+    -->
+    
     <!--Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -19,7 +25,7 @@
 <body>    
     <!--Top Page Title Bar-->
     <div class="conatainer d-flex p-2">
-        <h1 class="mx-auto">National Covid-19 Tracking App</h1>
+        <h1 class="mx-auto">National Covid-19 Tracker</h1>
     </div>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
@@ -29,7 +35,7 @@
             <span class="navbar-toggler-icon"></span>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
         </button>
-
+        <!--Nav Items-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -64,11 +70,11 @@
             </ul>
         </div>
     </nav>
-    <!--body stuff-->
+    <!--Map, Calendar, Charts, Data Boxes-->
     <div class="container">
+        <div id="map" style="position: relative; width: 500px; height: 300px;">
+            <img id="mapImage" src="./map.png" alt="usMap">
+        </div>
     </div>
 </body>
-
-
-
 </html>

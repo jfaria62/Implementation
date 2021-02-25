@@ -4,3 +4,10 @@
 .navbar-brand{
     padding-right: 1em;
 }
+#map{
+    border: solid black;
+}
+#mapImage{
+    width: 100%;
+    height: 100%;
+}
