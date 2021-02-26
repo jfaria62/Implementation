@@ -1,6 +1,9 @@
 .navbar{
     color: #ffffff;
 }
+.nav-link a{
+    color: white;
+    }
 .navbar-brand{
     padding-right: 1em;
 }
