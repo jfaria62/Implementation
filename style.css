@@ -22,6 +22,10 @@
     width: 100%;
     height: 100%;
 }
+.graph{
+    width: 100%;
+    height: 100%;
+}
 .statbox{
     border: solid 2px black;
     height: 14em;
